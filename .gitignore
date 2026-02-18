@@ -1,0 +1,98 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# VS Code (caso alguém use)
+.vscode/
+
+# Arquivos temporários e do sistema
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos de execução
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Selenium/WebDriver downloads
+selenium.log
+chromedriver.log
+
+# Arquivos de ambiente ou configs pessoais
+.env
+*.properties.local
+*.config
+
+# ignore any "reports" directory anywhere
+reports/
+**/reports/
